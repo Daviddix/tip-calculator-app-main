@@ -1,0 +1,23 @@
+/* variables  */
+:root{
+--StrongCyan: hsl(172, 67%, 45%);
+--veryDarkCyan: hsl(183, 100%, 15%);
+--darkGrayishCyan: hsl(186, 14%, 43%);
+--grayishCyan: hsl(184, 14%, 56%);
+--lightGrayishCyan: hsl(185, 41%, 84%);
+--veryLightGrayishCyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+/* general styling*/
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+

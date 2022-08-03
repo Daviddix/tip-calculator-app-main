@@ -4,9 +4,69 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tio Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Tip Calculator</title>
 </head>
 <body>
-  
+  <main>
+    <h1>SPLITTER</h1>
+
+    <section class="main-calculator">
+      <div class="left">
+
+      
+      <div class="bill">
+        <p>Bill</p>
+        <input type="text" placeholder="$" class="bill-input">
+      </div>
+
+      <div class="select-tip">
+        <p>Select Tip %</p>
+
+        <div class="buttons-and-input-container">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+
+          <input type="text" placeholder="Custom">
+        </div>
+      </div>
+
+      <div class="number">
+        <p>Number of People</p>
+
+        <input type="number" class="number-input" placeholder="0">
+      </div>
+      </div>
+
+      <div class="right">
+        <div class="tip-amount">
+          <div class="tip-amount-title">
+            <p>Tip Amount</p>
+            <small>/ person</small>
+          </div>
+
+          <div class="actual-tip-amount">
+            $4.27
+          </div>
+        </div>
+
+        <div class="total-amount">
+          <div class="total-amount-title">
+            <p>Total</p>
+            <small>/ person</small>
+          </div>
+
+          <div class="actual-total-amount">
+            $32.79
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
 </body>
 </html>
