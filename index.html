@@ -18,28 +18,34 @@
       <div class="bill">
         <img src="/images/icon-dollar.svg" alt="" class="dollar">
         <p>Bill</p>
-        <input type="text" placeholder="0" class="bill-input">
+        <input type="number" placeholder="0" class="bill-input">
       </div>
 
       <div class="select-tip">
         <p>Select Tip %</p>
 
         <div class="buttons-and-input-container">
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
+          <button data-percent="0.05">5%</button>
+          <button data-percent="0.1">10%</button>
+          <button data-percent="0.15">15%</button>
+          <button data-percent="0.25">25%</button>
+          <button data-percent="0.50">50%</button>
 
-          <input type="text" placeholder="Custom">
+          <input type="number" placeholder="Custom">
         </div>
       </div>
 
       <div class="number">
         <img src="/images/icon-person.svg" alt="" class="person">
+        <div class="heading">
         <p>Number of People</p>
+        <p class="warning-p">Can't be zero</p>
+        </div>
+        
 
         <input type="number" class="number-input" placeholder="0">
+
+        
       </div>
       </div>
 
@@ -51,7 +57,7 @@
           </div>
 
           <div class="actual-tip-amount">
-            <p>$4.27</p>
+            <p>$0.00</p>
           </div>
         </div>
 
@@ -62,7 +68,7 @@
           </div>
 
           <div class="actual-total-amount">
-            <p>$32.79</p>
+            <p>$0.00</p>
           </div>
         </div>
 

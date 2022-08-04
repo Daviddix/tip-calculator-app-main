@@ -141,13 +141,18 @@ main .main-calculator{
     -o-transition: .2s ease-in-out;
 }
 
+.main-calculator .left .select-tip .buttons-and-input-container button.picked{
+    background-color: var(--lightGrayishCyan);
+    color: var(--veryDarkCyan);
+}
+
 .main-calculator .left .select-tip .buttons-and-input-container input{
     border: none;
     outline: none;
     background-color: var(--veryLightGrayishCyan);
     color: var(--veryDarkCyan);
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: .8rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
@@ -197,6 +202,21 @@ main .main-calculator{
     -o-transition: .1s ease-in-out;
 }
 
+.main-calculator .left .number .heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-calculator .left .number input.warning{
+    border:1px solid red;
+}
+
+.main-calculator .left .number .warning-p{
+    font-weight: 100;
+    color:red;
+    display: none;
+}
 /* styling for the right side*/
 .main-calculator .right{
     max-width: 90%;
