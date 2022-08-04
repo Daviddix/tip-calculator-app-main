@@ -12,7 +12,7 @@
 /* font */
 @font-face {
     font-family: spaceMono;
-    src: url();
+    src: url('/fonts/SpaceMono-Regular.ttf');
 }
 /* general styling*/
 *, *::before, *::after{
