@@ -29,10 +29,12 @@ let isResetting = false
 billInput.addEventListener('input', (e)=>{
     if (isNotEmpty(e.currentTarget.value)) {
         isResetting = false
+        customPercentage.readOnly = false
         billValue = parseFloat(e.currentTarget.value) 
     }else{
         alert("Please input a valid number")
         e.currentTarget.value = ''
+        reset()
     }
 })
 
@@ -48,6 +50,7 @@ percentageButtons.forEach((button)=>{
 
         percent = parseFloat(button.dataset.percent)
         customPercentage.value = ''
+        numberOfPeopleInput.readOnly = false
         }
     })
    
@@ -155,7 +158,9 @@ function reset(){
     classRemover()
     percent = 0
     customPercentage.value = ''
+    customPercentage.readOnly = true
     numberOfPeopleInput.value = ''
+    numberOfPeopleInput.readOnly = true
     people = 0
     isTime = false
 
@@ -165,3 +170,5 @@ function reset(){
     
     
 }
+
+window.addEventListener("load", reset)

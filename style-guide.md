@@ -4,8 +4,9 @@
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: <600px
+-Tablets: >600 <850
+- Desktop: >950
 
 ## Colors
 
@@ -22,13 +23,7 @@ The designs were created to the following widths:
 - Very light grayish cyan: hsl(189, 41%, 97%)
 - White: hsl(0, 0%, 100%)
 
-## Typography
-
-### Body Copy
-
-- Font size (form inputs): 24px
-
 ### Font
 
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-- Weights: 700
+- Family: [Space Mono](/fonts/SpaceMono-Regular.ttf)
+- Weights: 700, 100

@@ -139,6 +139,7 @@ main .main-calculator{
     -moz-transition: .2s ease-in-out;
     -ms-transition: .2s ease-in-out;
     -o-transition: .2s ease-in-out;
+    font-family: spacemono;
 }
 
 .main-calculator .left .select-tip .buttons-and-input-container button.picked{
