@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/calc.png)
+![](/images/calc.PNG)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://62ecc0958b5f9f183732502f--super-frangipane-dde566.netlify.app/)
+- Live Site URL: [Tip Calculator App](https://62ecc0958b5f9f183732502f--super-frangipane-dde566.netlify.app/)
 
 ## My process
 I started with building the skeleton of the app with HTML only and I addded CSS for styling the app. I added functionality with javaScript; reset, percent conversion, selectors and so on. 
@@ -41,5 +41,5 @@ I started with building the skeleton of the app with HTML only and I addded CSS 
 - Vanilla javaScript
 
 ## Author
-- Twitter - [@yourusername](https://www.twitter.com/dixx_david)
+- Twitter - [@daviddixx](https://www.twitter.com/dixx_david)
 
